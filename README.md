@@ -25,7 +25,7 @@ This repository contains a data pipeline designed to process and analyze booking
 - **File Ingestion**: File processing allows for processing of multiple files, performs validation of files, adds admin columns, and consolidates data to remove duplicates across files before merging data into bronze table.
                       Invalid files are moved to a separate folder for review.   Good files are processed, merged into the raw data table, and then archived.
                       Allows for processing of incremental files or full files.
-- **Customer Aggregate **: Customer Aggregation aggregates data at the email level, and enhances data by adding additional data points.   Configuration allows for incremental or full calculation.
+- **Customer Aggregate**: Customer Aggregation aggregates data at the email level, and enhances data by adding additional data points.   Configuration allows for incremental or full calculation.
                       Validation steps can be added to this flow as well.
 - **Business Insights**:  Leverages Bookings Bronze Raw Data and Customer Aggregate to build a Business Insights table to support OLAP processing.   
 - **Future Enhancements**: Add a Data Observability Framework to run periodic validations across all data sources and alert team if any issues.
