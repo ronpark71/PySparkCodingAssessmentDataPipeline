@@ -47,4 +47,4 @@ This repository contains a data pipeline designed to process and analyze booking
 
 - Installing spark and java locally with right versions to support delta tables took time.
 - Automatic schema evolution .
-- Business Insights is currently a full load, and may require rearchitecture to support incremental.
+- Lazy Evaluations when loading a df from file need to run archive of file after df is no longer referenced, or load df into memory.
