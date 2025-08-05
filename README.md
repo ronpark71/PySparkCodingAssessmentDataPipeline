@@ -22,7 +22,7 @@ This repository contains a data pipeline designed to process and analyze booking
 - **Automatic Schema Evolution**:  Raw Data Pipeline is enabled for automatic schema evolution.
 - **Validate and Cleanse data**:  Highlight places to validate or cleanse data throughout the process.
   
-- **File Ingestion**: File processing allows for processing of multiple files, performs validation of files, adds admin columns, and consolidates data to pull only the latest records before writing to bronze table.
+- **File Ingestion**: File processing allows for processing of multiple files, performs validation of files, adds admin columns, and consolidates data to remove duplicates across files before merging data into bronze table.
                       Invalid files are moved to a separate folder for review.   Good files are processed, merged into the raw data table, and then archived.
                       Allows for processing of incremental files or full files.
 - **Customer Aggregate **: Customer Aggregation aggregates data at the email level, and enhances data by adding additional data points.   Configuration allows for incremental or full calculation.
