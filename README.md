@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This repository contains a data pipeline engineered for an interview assessment.  There was a limited amount of time available, so not everything was perfect, but it is meant to be a showcase of building an end to end data pipeline in a limited amount of time. The goal was to build a scalable and efficient architecture that ingests raw booking records, generates a curated customer master table and then transforms the bookings and customer data into a business insights analytics-ready dataset.
+This repository contains a sample data pipeline.  There was a limited amount of time available, so not everything was perfect, but it is meant to be a showcase of building an end to end data pipeline in a limited amount of time. The goal was to build a scalable and efficient architecture that ingests raw booking records, generates a curated customer master table and then transforms the bookings and customer data into a business insights analytics-ready dataset.
 
 ---
 
